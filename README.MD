@@ -18,7 +18,7 @@
 
 ## About ##
 
-e-commerce Mobile Application for toys for donation.\
+e-commerce Mobile Application that displays toys for donation.\
 This project is a part of a Mobile Development specialization course by Unyleya about Native development for iOS made by Gian Carlo Mantuan Dala Rosa (me)
 
 ## Features ##
