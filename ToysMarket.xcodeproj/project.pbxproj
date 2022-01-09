@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9637E69B6CCFF15D5113D08D /* Pods_ToysMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4D4CDD2E427BDF61139F7A /* Pods_ToysMarket.framework */; };
+		BA4063E1278A084000C6A039 /* ToyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4063E0278A084000C6A039 /* ToyItem.swift */; };
+		BA4063E3278A0B5B00C6A039 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4063E2278A0B5B00C6A039 /* ListTableViewController.swift */; };
+		BA4063E5278A14F900C6A039 /* ToyItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4063E4278A14F900C6A039 /* ToyItemTableViewCell.swift */; };
+		BA4063E7278A5DD000C6A039 /* ToyFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4063E6278A5DD000C6A039 /* ToyFormViewController.swift */; };
 		BA89E3C72787AB0B00BBB772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA89E3C62787AB0B00BBB772 /* AppDelegate.swift */; };
 		BA89E3C92787AB0B00BBB772 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA89E3C82787AB0B00BBB772 /* SceneDelegate.swift */; };
-		BA89E3CB2787AB0B00BBB772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA89E3CA2787AB0B00BBB772 /* ViewController.swift */; };
 		BA89E3CE2787AB0B00BBB772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA89E3CC2787AB0B00BBB772 /* Main.storyboard */; };
 		BA89E3D02787AB0C00BBB772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA89E3CF2787AB0C00BBB772 /* Assets.xcassets */; };
 		BA89E3D32787AB0C00BBB772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA89E3D12787AB0C00BBB772 /* LaunchScreen.storyboard */; };
+		BAA51E562789F5FC00F63FD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAA51E552789F5FC00F63FD7 /* GoogleService-Info.plist */; };
+		BAF61569278A8E91009B9CE3 /* ToyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF61568278A8E91009B9CE3 /* ToyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EE93E0B31326CA40CE8EB51 /* Pods-ToysMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToysMarket.debug.xcconfig"; path = "Target Support Files/Pods-ToysMarket/Pods-ToysMarket.debug.xcconfig"; sourceTree = "<group>"; };
+		3B79B9EF60043891629598A8 /* Pods-ToysMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToysMarket.release.xcconfig"; path = "Target Support Files/Pods-ToysMarket/Pods-ToysMarket.release.xcconfig"; sourceTree = "<group>"; };
+		BA4063E0278A084000C6A039 /* ToyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyItem.swift; sourceTree = "<group>"; };
+		BA4063E2278A0B5B00C6A039 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		BA4063E4278A14F900C6A039 /* ToyItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyItemTableViewCell.swift; sourceTree = "<group>"; };
+		BA4063E6278A5DD000C6A039 /* ToyFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyFormViewController.swift; sourceTree = "<group>"; };
+		BA4D4CDD2E427BDF61139F7A /* Pods_ToysMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToysMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA89E3C32787AB0B00BBB772 /* ToysMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToysMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA89E3C62787AB0B00BBB772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA89E3C82787AB0B00BBB772 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA89E3CA2787AB0B00BBB772 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA89E3CD2787AB0B00BBB772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA89E3CF2787AB0C00BBB772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA89E3D22787AB0C00BBB772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA89E3D42787AB0C00BBB772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA51E552789F5FC00F63FD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BAF61568278A8E91009B9CE3 /* ToyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9637E69B6CCFF15D5113D08D /* Pods_ToysMarket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		802A222DF6C15E7DE7E77A05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EE93E0B31326CA40CE8EB51 /* Pods-ToysMarket.debug.xcconfig */,
+				3B79B9EF60043891629598A8 /* Pods-ToysMarket.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A68B6E4F8AAE5BD1F156C20F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D4CDD2E427BDF61139F7A /* Pods_ToysMarket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA89E3BA2787AB0B00BBB772 = {
 			isa = PBXGroup;
 			children = (
 				BA89E3C52787AB0B00BBB772 /* ToysMarket */,
 				BA89E3C42787AB0B00BBB772 /* Products */,
+				802A222DF6C15E7DE7E77A05 /* Pods */,
+				A68B6E4F8AAE5BD1F156C20F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,36 @@
 		BA89E3C52787AB0B00BBB772 /* ToysMarket */ = {
 			isa = PBXGroup;
 			children = (
-				BA89E3C62787AB0B00BBB772 /* AppDelegate.swift */,
-				BA89E3C82787AB0B00BBB772 /* SceneDelegate.swift */,
-				BA89E3CA2787AB0B00BBB772 /* ViewController.swift */,
+				BA89E3DA2787AB2000BBB772 /* Main */,
+				BA4063E2278A0B5B00C6A039 /* ListTableViewController.swift */,
+				BA4063E4278A14F900C6A039 /* ToyItemTableViewCell.swift */,
+				BA4063E6278A5DD000C6A039 /* ToyFormViewController.swift */,
+				BAF61568278A8E91009B9CE3 /* ToyViewController.swift */,
+				BA4063E0278A084000C6A039 /* ToyItem.swift */,
 				BA89E3CC2787AB0B00BBB772 /* Main.storyboard */,
 				BA89E3CF2787AB0C00BBB772 /* Assets.xcassets */,
 				BA89E3D12787AB0C00BBB772 /* LaunchScreen.storyboard */,
 				BA89E3D42787AB0C00BBB772 /* Info.plist */,
+				BAA51E552789F5FC00F63FD7 /* GoogleService-Info.plist */,
 			);
 			path = ToysMarket;
+			sourceTree = "<group>";
+		};
+		BA89E3DA2787AB2000BBB772 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA89E3DB2787AB2700BBB772 /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BA89E3DB2787AB2700BBB772 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA89E3C62787AB0B00BBB772 /* AppDelegate.swift */,
+				BA89E3C82787AB0B00BBB772 /* SceneDelegate.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA89E3D72787AB0C00BBB772 /* Build configuration list for PBXNativeTarget "ToysMarket" */;
 			buildPhases = (
+				39BD7C15349830A4C201B4F7 /* [CP] Check Pods Manifest.lock */,
 				BA89E3BF2787AB0B00BBB772 /* Sources */,
 				BA89E3C02787AB0B00BBB772 /* Frameworks */,
 				BA89E3C12787AB0B00BBB772 /* Resources */,
+				7BDCC39E1CC032D749911FD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA89E3D32787AB0C00BBB772 /* LaunchScreen.storyboard in Resources */,
+				BAA51E562789F5FC00F63FD7 /* GoogleService-Info.plist in Resources */,
 				BA89E3D02787AB0C00BBB772 /* Assets.xcassets in Resources */,
 				BA89E3CE2787AB0B00BBB772 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +191,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39BD7C15349830A4C201B4F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToysMarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BDCC39E1CC032D749911FD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToysMarket/Pods-ToysMarket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToysMarket/Pods-ToysMarket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToysMarket/Pods-ToysMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA89E3BF2787AB0B00BBB772 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA89E3CB2787AB0B00BBB772 /* ViewController.swift in Sources */,
+				BA4063E7278A5DD000C6A039 /* ToyFormViewController.swift in Sources */,
 				BA89E3C72787AB0B00BBB772 /* AppDelegate.swift in Sources */,
 				BA89E3C92787AB0B00BBB772 /* SceneDelegate.swift in Sources */,
+				BA4063E5278A14F900C6A039 /* ToyItemTableViewCell.swift in Sources */,
+				BAF61569278A8E91009B9CE3 /* ToyViewController.swift in Sources */,
+				BA4063E3278A0B5B00C6A039 /* ListTableViewController.swift in Sources */,
+				BA4063E1278A084000C6A039 /* ToyItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +388,7 @@
 		};
 		BA89E3D82787AB0C00BBB772 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE93E0B31326CA40CE8EB51 /* Pods-ToysMarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +416,7 @@
 		};
 		BA89E3D92787AB0C00BBB772 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B79B9EF60043891629598A8 /* Pods-ToysMarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

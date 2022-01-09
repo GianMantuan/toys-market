@@ -1,0 +1,6 @@
+framework module Pods_ToysMarket {
+  umbrella header "Pods-ToysMarket-umbrella.h"
+
+  export *
+  module * { export * }
+}
